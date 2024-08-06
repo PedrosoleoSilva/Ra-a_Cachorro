@@ -1,0 +1,164 @@
+{
+    "cachorros": [
+        {
+            "id": 1,
+            "name": "Buddy",
+            "idade": 3,
+            "raca": "Golden Retriever",
+            "descricao": "Buddy é um cachorro amigável e brincalhão. Ele adora correr e brincar no parque.",
+            "url": "https://i0.wp.com/petcaramelo.com/wp-content/uploads/2018/07/Golden-retriever-cachorro2.jpg?w=645&ssl=1"
+        },
+        {
+            "id": 2,
+            "name": "Luna",
+            "idade": 2,
+            "raca": "Labrador Retriever",
+            "descricao": "Luna é uma cadela amorosa e protetora. Ela adora abraços e é ótima com crianças.",
+            "url": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2023/11/29/1147115027-labrador-retriever.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Max",
+            "idade": 4,
+            "raca": "Bulldog Francês",
+            "descricao": "Max é um cãozinho cheio de energia. Ele adora brinquedos e é muito sociável.",
+            "url": "https://storage.alboom.ninja/sites/6616/media/amelia3_75f2fad46864.png?t=1530045088"
+        },
+        {
+            "id": 4,
+            "name": "Bella",
+            "idade": 5,
+            "raca": "Poodle",
+            "descricao": "Bella é uma cadela inteligente e leal. Ela adora aprender novos truques.",
+            "url": "https://www.petz.com.br/blog/wp-content/uploads/2022/10/como-dar-banho-em-poodle.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Charlie",
+            "idade": 6,
+            "raca": "Beagle",
+            "descricao": "Charlie é um cão curioso e ativo. Ele adora farejar tudo ao seu redor.",
+            "url": "https://www.zooplus.pt/magazine/wp-content/uploads/2018/06/beagle_1.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Molly",
+            "idade": 1,
+            "raca": "Yorkshire Terrier",
+            "descricao": "Molly é uma cadela pequena e corajosa. Ela tem uma personalidade forte.",
+            "url": "https://www.sidewalkdog.com/wp-content/uploads/2024/02/Australian-Yorkshire-Terrier.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Rocky",
+            "idade": 2,
+            "raca": "Boxer",
+            "descricao": "Rocky é um cão energético e brincalhão. Ele adora correr e saltar.",
+            "url": "https://cdn.britannica.com/46/233846-050-8D30A43B/Boxer-dog.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Daisy",
+            "idade": 3,
+            "raca": "Dachshund",
+            "descricao": "Daisy é uma cadela leal e protetora. Ela adora ficar perto da família.",
+            "url": "https://uploads.metropoles.cloud/wp-content/uploads/2024/03/27102538/Raca-dachshund-2.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Jack",
+            "idade": 4,
+            "raca": "Siberian Husky",
+            "descricao": "Jack é um cão independente e aventureiro. Ele adora atividades ao ar livre.",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbSg10ItPCv_MKlQtsPTgyxK-6ZypRiLMJhA&usqp=CAU"
+        },
+        {
+            "id": 10,
+            "name": "Sophie",
+            "idade": 5,
+            "raca": "Shih Tzu",
+            "descricao": "Sophie é uma cadela doce e calma. Ela adora descansar e receber carinho.",
+            "url": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/07/03/79816500-shih-tzu.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Toby",
+            "idade": 2,
+            "raca": "Cocker Spaniel",
+            "descricao": "Toby é um cão amigável e afetuoso. Ele adora fazer novos amigos.",
+            "url": "https://cantinhodosanimais.com.br/wordpress/wp-content/files/cantinhodosanimais.com.br/2024/04/cocker-spaniel.webp"
+        },
+        {
+            "id": 12,
+            "name": "Chloe",
+            "idade": 3,
+            "raca": "Pomeranian",
+            "descricao": "Chloe é uma cadela pequena e animada. Ela adora brincar com seus brinquedos.",
+            "url": "https://media-be.chewy.com/wp-content/uploads/2021/06/02102132/Pomeranian_Featured-Image-1024x615.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Oscar",
+            "idade": 4,
+            "raca": "Rottweiler",
+            "descricao": "Oscar é um cão forte e protetor. Ele é leal à sua família e adora brincar.",
+            "url": "https://i0.wp.com/destinopet.com.br/wp-content/uploads/2024/01/0-204.png?fit=576%2C384&quality=80&ssl=1"
+        },
+        {
+            "id": 14,
+            "name": "Ruby",
+            "idade": 1,
+            "raca": "Chihuahua",
+            "descricao": "Ruby é uma cadela pequena e valente. Ela adora ser o centro das atenções.",
+            "url": "data:image/jpeg;base64,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"
+        },
+        {
+            "id": 15,
+            "name": "Buster",
+            "idade": 2,
+            "raca": "Border Collie",
+            "descricao": "Buster é um cão inteligente e ativo. Ele adora correr e jogar frisbee.",
+            "url": "https://ibrcpedigree.com/wp-content/uploads/2019/07/border-collie_593634296-1000x668.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Rosie",
+            "idade": 3,
+            "raca": "Australian Shepherd",
+            "descricao": "Rosie é uma cadela trabalhadora e leal. Ela adora atividades e é muito obediente.",
+            "url": "https://www.dogster.com/wp-content/uploads/2022/03/Australian-Shepherd-breed-sitting-on-the-stone_ChocoPie-Shutterstock.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Gus",
+            "idade": 4,
+            "raca": "Dalmatian",
+            "descricao": "Gus é um cão enérgico e brincalhão. Ele adora correr e é muito amigável.",
+            "url": "https://www.pdsa.org.uk/media/7883/dalmatian-gallery-outdoors-1-min.jpg?anchor=center&mode=crop&quality=100&height=500&bgcolor=fff&rnd=132179483000000000"
+        },
+        {
+            "id": 18,
+            "name": "Penny",
+            "idade": 5,
+            "raca": "Boston Terrier",
+            "descricao": "Penny é uma cadela inteligente e afetuosa. Ela adora brincar e receber carinho.",
+            "url": "https://cdn.britannica.com/83/236683-050-84785C8B/Boston-Terrier-dog.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Leo",
+            "idade": 2,
+            "raca": "Cavalier King Charles Spaniel",
+            "descricao": "Leo é um cão doce e carinhoso. Ele adora estar perto das pessoas e receber atenção.",
+            "url": "https://i0.wp.com/petcaramelo.com/wp-content/uploads/2021/06/Cavalier-King-Charles-Spaniel-vermelho.jpg?fit=640%2C428&ssl=1"
+        },
+        {
+            "id": 20,
+            "name": "Maggie",
+            "idade": 3,
+            "raca": "Great Dane",
+            "descricao": "Maggie é uma cadela gentil e majestosa. Ela adora passear e é muito leal.",
+            "url": "https://gladdogsnation.com/cdn/shop/articles/b3467699bc2edb983acd54eb3f88249d.jpg?v=1652426182"
+        }
+    ]
+}

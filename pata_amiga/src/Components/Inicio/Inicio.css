@@ -1,0 +1,26 @@
+.container h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container-main img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.lista-cachorros {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.dog-name {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
