@@ -1,11 +1,18 @@
-
+import CardSelecionado from "./Components/CardSelecionado";
 import Inicio from "./Components/Inicio";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Inicio/>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/card" element={ <CardSelecionado/>} />
+        </Routes>
+      </div>
+    </Router>
+
   );
 }
 

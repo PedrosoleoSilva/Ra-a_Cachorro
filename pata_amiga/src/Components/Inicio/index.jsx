@@ -1,12 +1,15 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Inicio.css'
 import BuscarRaca from '../BuscarRaca';
 import Banner from '../Banner';
+import Card from '../Card';
 
 const Inicio = () => {
 
     const [cachorros, setCachorros] = useState([]);
     const [busca, setBusca] = useState('');
+    const navigate = useNavigate();
 
     useEffect(() => {
         try {
@@ -31,6 +34,14 @@ const Inicio = () => {
         }
     }, [busca])
 
+    const aoClickImagem = (cachorro) => {
+        navigate('/card', {
+            state: {
+                cachorro
+            }
+        });
+    }
+
     return (
         <div className='container'>
             <BuscarRaca
@@ -42,10 +53,13 @@ const Inicio = () => {
             <div className='container-main'>
                 <ul className='lista-cachorros'>
                     {cachorros.map(cachorro =>
-                        <li key={cachorro.name}>
-                            <img src={cachorro.url} alt='imagens Cachorro' />
-                            <div className='dog-name'>{cachorro.name}</div>
-                        </li>
+                        <Card 
+                            key={cachorro.id}
+                            imagem={cachorro.url}
+                            nome={cachorro.name}
+                            descricao={cachorro.descricao}
+                            onClick={() => aoClickImagem(cachorro)}
+                        />
                     )}
                 </ul>
             </div>
